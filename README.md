@@ -11,7 +11,7 @@ Construimos aplicaciones web instaladas desde el navegador (PWA) para **negocios
 | [Servitecas](https://github.com/Johan-SnaiderMM/servitecas) | El cliente del taller ve el avance de su vehículo y autoriza los trabajos adicionales desde su celular | Next.js · Supabase |
 | [Polo Air Cool](https://github.com/Johan-SnaiderMM/Air-Polo-Cool) | Taller de aire acondicionado automotriz: órdenes con fotos, inventario, caja menor y portal del cliente | Next.js · Supabase |
 | [Reporte ambiental](https://github.com/Johan-SnaiderMM/Proyecto-Corpouraba) | Prototipo para reportar afectaciones ambientales con foto y ubicación, y gestionarlas en un mapa | Vite · Leaflet · Supabase |
-| [Orígenes](https://github.com/Johan-SnaiderMM/Origenes-with-RA) | Memoria histórica de Urabá con realidad aumentada, escenas 360° y una avatar con IA | React · Express · Three.js |
+| [Orígenes](https://github.com/Johan-SnaiderMM/origenes) · [web en vivo](https://www.aruma-origenes.com/login) | Memoria histórica de Urabá con realidad aumentada, escenas 360° y una avatar con IA | React · Express · Three.js |
 | [Consultorio psicológico](https://github.com/Johan-SnaiderMM/Consultorio_Psicologia) | Pacientes, lista de espera y documentos clínicos en PDF | Node.js · PostgreSQL |
 | [FlyRank ML](https://github.com/Johan-SnaiderMM/flyrank-ml-internship) | Internado de ML: ranking y visibilidad en Google Search | Python |
 | [Pizza Party Pixel](https://github.com/Johan-SnaiderMM/pizza-party-pixel) | Una invitación interactiva en pixel art, hecha por diversión | HTML · CSS · JavaScript |
