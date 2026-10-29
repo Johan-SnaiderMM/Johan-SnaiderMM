@@ -6,7 +6,7 @@ Construimos aplicaciones web instaladas desde el navegador (PWA) para **negocios
 
 | Proyecto | Qué resuelve | Tecnologías |
 | --- | --- | --- |
-| [Barberías](https://github.com/Johan-SnaiderMM/barberias) | Agenda del personal, reservas por enlace o QR y las cuentas del día: efectivo, Nequi, comisiones y cierre | Next.js · Supabase |
+| [Barberías](https://github.com/Johan-SnaiderMM/barberias) · [web en vivo](https://barberias-demo-lyart.vercel.app) | Agenda del personal, reservas por enlace o QR y las cuentas del día: efectivo, Nequi, comisiones y cierre | Next.js · Supabase |
 | [Comanda](https://github.com/Johan-SnaiderMM/comandacomi) | Restaurantes pequeños: pedidos por mesa, para llevar y domicilio, fiado, gastos y cierre del día | Next.js · Supabase |
 | [Servitecas](https://github.com/Johan-SnaiderMM/servitecas) · [web en vivo](https://servitecas.vercel.app) | El cliente del taller ve el avance de su vehículo y autoriza los trabajos adicionales desde su celular | Next.js · Supabase |
 | [Polo Air Cool](https://github.com/Johan-SnaiderMM/Air-Polo-Cool) | Taller de aire acondicionado automotriz: órdenes con fotos, inventario, caja menor y portal del cliente | Next.js · Supabase |
