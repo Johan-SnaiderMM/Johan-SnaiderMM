@@ -14,7 +14,7 @@ Construimos aplicaciones web instaladas desde el navegador (PWA) para **negocios
 | [Orígenes](https://github.com/Johan-SnaiderMM/origenes) · [web en vivo](https://www.aruma-origenes.com/login) | Memoria histórica de Urabá con realidad aumentada, escenas 360° y una avatar con IA | React · Express · Three.js |
 | [Consultorio psicológico](https://github.com/Johan-SnaiderMM/Consultorio_Psicologia) | Pacientes, lista de espera y documentos clínicos en PDF | Node.js · PostgreSQL |
 | [FlyRank ML](https://github.com/Johan-SnaiderMM/flyrank-ml-internship) | Internado de ML: ranking y visibilidad en Google Search | Python |
-| [Pizza Party Pixel](https://github.com/Johan-SnaiderMM/pizza-party-pixel) | Una invitación interactiva en pixel art, hecha por diversión | HTML · CSS · JavaScript |
+| [Pizza Party Pixel](https://github.com/Johan-SnaiderMM/pizza-party-pixel) · [web en vivo](https://pizza-party-pixel.vercel.app) | Una invitación interactiva en pixel art, hecha por diversión | HTML · CSS · JavaScript |
 
 ## Cómo trabajamos
 
