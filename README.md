@@ -1,4 +1,4 @@
-# Hola, somos La ficha 👋
+# Hola, soy La ficha 👋
 
 Construimos aplicaciones web instaladas desde el navegador (PWA) para **negocios pequeños de Colombia**: se abren con un enlace desde el celular, sin tienda de aplicaciones, y están pensadas primero para pantallas pequeñas y una sola mano.
 
