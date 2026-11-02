@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Johan Moreno · Ingeniero de Sistemas</title>
+  <desc id="d">Banner claro con el nombre, la profesión, un arco dorado, un guantelete dorado y blanco, una rosa y pétalos rosados que caen.</desc>
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3f1ff"/>
+      <stop offset="0.55" stop-color="#f4f8ff"/>
+      <stop offset="1" stop-color="#ffeaf4"/>
+    </linearGradient>
+    <linearGradient id="oro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d98a"/>
+      <stop offset="0.5" stop-color="#c9a24a"/>
+      <stop offset="1" stop-color="#9a7428"/>
+    </linearGradient>
+    <linearGradient id="blanco" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9d8ee"/>
+    </linearGradient>
+    <radialGradient id="rosa" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#ffb3d6"/>
+      <stop offset="1" stop-color="#e0408f"/>
+    </radialGradient>
+    <filter id="sombra" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#6a86b5" flood-opacity="0.35"/>
+    </filter>
+    <!-- un pétalo -->
+    <path id="petalo" d="M0 0C10 -10 24 -6 22 6C20 18 6 20 0 12C-6 6 -6 -4 0 0Z"/>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#fondo)"/>
+
+  <!-- arco gótico dorado, de fondo -->
+  <g fill="none" stroke="url(#oro)" stroke-width="5" opacity="0.55" transform="translate(900 0)">
+    <path d="M-170 300V140C-170 40 -80 -10 0 -10C80 -10 170 40 170 140V300"/>
+    <path d="M-140 300V145C-140 62 -70 22 0 22C70 22 140 62 140 145V300" stroke-width="3"/>
+    <path d="M0 22C-30 70 -30 120 0 170C30 120 30 70 0 22Z" stroke-width="3"/>
+  </g>
+
+  <!-- guantelete dorado y blanco (dibujo propio) -->
+  <g transform="translate(905 160)" filter="url(#sombra)">
+    <animateTransform attributeName="transform" type="translate" values="905 160;905 150;905 160" dur="3.2s" repeatCount="indefinite"/>
+    <!-- manga blanca -->
+    <path d="M-150 -34L-70 -46L-70 46L-150 34Z" fill="url(#blanco)" stroke="#aebfd8" stroke-width="3"/>
+    <path d="M-120 -38V38M-100 -41V41" stroke="#aebfd8" stroke-width="3"/>
+    <!-- puño dorado -->
+    <rect x="-72" y="-58" width="112" height="116" rx="26" fill="url(#oro)" stroke="#fff1c4" stroke-width="3"/>
+    <path d="M-52 -34C-20 -48 10 -44 24 -30M-52 34C-20 48 10 44 24 30" fill="none" stroke="#fff1c4" stroke-width="3" opacity="0.8"/>
+    <!-- remaches plateados -->
+    <g fill="#e9eef7" stroke="#8fa0ba" stroke-width="2">
+      <circle cx="-44" cy="-30" r="8"/>
+      <circle cx="-44" cy="0" r="8"/>
+      <circle cx="-44" cy="30" r="8"/>
+    </g>
+    <!-- nudillos -->
+    <g fill="url(#oro)" stroke="#fff1c4" stroke-width="2.5">
+      <rect x="26" y="-52" width="26" height="24" rx="8"/>
+      <rect x="26" y="-24" width="26" height="24" rx="8"/>
+      <rect x="26" y="4" width="26" height="24" rx="8"/>
+      <rect x="26" y="32" width="22" height="18" rx="7"/>
+    </g>
+    <!-- cristal violeta sobre el brazo -->
+    <path d="M-110 -52L-96 -76L-82 -52L-96 -44Z" fill="#b9a2ff" stroke="#6c52c9" stroke-width="2.5"/>
+  </g>
+
+  <!-- rosa -->
+  <g transform="translate(1075 215)" filter="url(#sombra)">
+    <circle r="30" fill="url(#rosa)"/>
+    <path d="M-18 -4C-10 -22 12 -22 18 -4C10 -14 -8 -14 -18 -4Z" fill="#ffd3e8" opacity="0.9"/>
+    <path d="M-12 8C-2 -6 14 0 12 12C4 18 -8 18 -12 8Z" fill="#c42f7b" opacity="0.7"/>
+    <circle r="9" fill="#ff8fc4" stroke="#c42f7b" stroke-width="2"/>
+  </g>
+
+  <!-- pétalos que caen -->
+  <g fill="#ff8fc4" opacity="0.9">
+    <g><use href="#petalo"/>
+      <animateTransform attributeName="transform" type="translate" values="640 -20;700 330" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#ffb3d6"><use href="#petalo" transform="scale(0.8)"/>
+      <animateTransform attributeName="transform" type="translate" values="760 -30;730 330" dur="8.5s" begin="1s" repeatCount="indefinite"/>
+    </g>
+    <g><use href="#petalo" transform="scale(1.1) rotate(40)"/>
+      <animateTransform attributeName="transform" type="translate" values="1040 -10;980 330" dur="6.5s" begin="2s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#ffb3d6"><use href="#petalo" transform="scale(0.7) rotate(-30)"/>
+      <animateTransform attributeName="transform" type="translate" values="560 -40;610 330" dur="9s" begin="3s" repeatCount="indefinite"/>
+    </g>
+    <g><use href="#petalo" transform="scale(0.9) rotate(80)"/>
+      <animateTransform attributeName="transform" type="translate" values="1130 -20;1090 330" dur="7.5s" begin="0.5s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#ffb3d6"><use href="#petalo" transform="scale(1) rotate(15)"/>
+      <animateTransform attributeName="transform" type="translate" values="840 -30;880 330" dur="8s" begin="4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- texto -->
+  <g font-family="'Segoe UI', system-ui, -apple-system, Roboto, Arial, sans-serif">
+    <text x="60" y="130" font-size="68" font-weight="800" fill="#1b2a4a">Johan Moreno</text>
+    <text x="62" y="178" font-size="28" font-weight="600" fill="#d63f8c">Ingeniero de Sistemas</text>
+    <text x="62" y="218" font-size="22" fill="#4a5f86">Desarrollo web full stack · IA aplicada · Urabá, Colombia</text>
+    <rect x="62" y="238" width="120" height="5" rx="2.5" fill="url(#oro)">
+      <animate attributeName="width" values="40;260;40" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
