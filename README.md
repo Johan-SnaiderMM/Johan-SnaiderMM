@@ -3,7 +3,7 @@
 <img src="banner.svg" alt="Johan Moreno · Ingeniero de Sistemas" width="100%">
 
 <a href="https://github.com/Johan-SnaiderMM">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF8FC4&center=true&vCenter=true&width=640&height=50&lines=Ingeniero+de+Sistemas;Desarrollo+web+full+stack;Next.js+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Supabase;Redes+neuronales+escritas+desde+cero;Pruebas+primero%2C+como+Vi+con+un+bug+%28Crystal+Rose%29" alt="Frase animada: Ingeniero de Sistemas, desarrollo web full stack, Next.js, React, TypeScript, Supabase, redes neuronales escritas desde cero" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF8FC4&center=true&vCenter=true&width=640&height=50&lines=Ingeniero+de+Sistemas;Desarrollo+web+full+stack;Next.js+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Supabase;Redes+neuronales+escritas+desde+cero" alt="Frase animada: Ingeniero de Sistemas, desarrollo web full stack, Next.js, React, TypeScript, Supabase, redes neuronales escritas desde cero" />
 </a>
 
 </div>
