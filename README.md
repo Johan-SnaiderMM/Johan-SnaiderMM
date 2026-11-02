@@ -3,7 +3,7 @@
 <img src="banner.svg" alt="Johan Moreno · Ingeniero de Sistemas" width="100%">
 
 <a href="https://github.com/Johan-SnaiderMM">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=E0408F&center=true&vCenter=true&width=640&height=50&lines=Ingeniero+de+Sistemas;Desarrollo+web+full+stack;Next.js+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Supabase;Redes+neuronales+escritas+desde+cero;Pruebas+primero%2C+como+Vi+con+un+bug+%28Crystal+Rose%29" alt="Frase animada: Ingeniero de Sistemas, desarrollo web full stack, Next.js, React, TypeScript, Supabase, redes neuronales escritas desde cero" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=FF8FC4&center=true&vCenter=true&width=640&height=50&lines=Ingeniero+de+Sistemas;Desarrollo+web+full+stack;Next.js+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Supabase;Redes+neuronales+escritas+desde+cero;Pruebas+primero%2C+como+Vi+con+un+bug+%28Crystal+Rose%29" alt="Frase animada: Ingeniero de Sistemas, desarrollo web full stack, Next.js, React, TypeScript, Supabase, redes neuronales escritas desde cero" />
 </a>
 
 </div>
@@ -24,33 +24,23 @@ Fuera del código soy fan de **Vi** (*League of Legends* y *Arcane*), y mi skin 
 
 **Además:** PWA, pruebas automáticas (Vitest), NumPy y PyTorch, soporte técnico de TI, osTicket, Scrum (lo usé en la universidad).
 
-## 🚀 Proyectos destacados
+## 🚀 Mis proyectos
 
-| Proyecto | Qué es | Enlaces |
-|---|---|---|
-| **Comanda** | App para restaurantes pequeños: pedidos por mesa, para llevar y domicilio, fiado y cierre del día, y funciona sin conexión. La versión real está en uso en un negocio. | [Demo](https://comandacomi.vercel.app) |
-| **Polo Air Cool** | Sistema para un taller de aire acondicionado automotriz, **en uso real**: órdenes con bitácora fotográfica, inventario, garantías y portal del cliente. | [Ver el sitio](https://polo-air-cool.vercel.app) |
-| **Red neuronal desde cero** | Perceptrón multicapa escrito con **NumPy** (retropropagación, Adam e inicialización de He a mano, sin PyTorch ni TensorFlow): **98,1 %** en las 10 000 imágenes de prueba de MNIST. La demo lee números de varios dígitos en el navegador. | [Demo](https://red-neuronal-desde-cero.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/red-neuronal-desde-cero) |
-| **Clasificador de hojas de banano** | Detecta si una hoja está sana o con Sigatoka, Cordana o Pestalotiopsis: transfer learning (MobileNetV2) exportado a ONNX para correr en el navegador. **98,5 %** en 134 fotos de prueba (entrenado con fotos de Bangladesh; aún sin validar con hojas de Urabá). | [Demo](https://clasificador-hojas-banano.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/clasificador-hojas-banano) |
+| Proyecto | Qué resuelve | Tecnologías | Enlaces |
+| --- | --- | --- | --- |
+| **Red neuronal desde cero** | Perceptrón multicapa escrito con **NumPy** (retropropagación, Adam e inicialización de He a mano, sin PyTorch ni TensorFlow): **98,1 %** en las 10 000 imágenes de prueba de MNIST. La demo lee números de varios dígitos en el navegador. | Python · NumPy · Next.js | [Demo](https://red-neuronal-desde-cero.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/red-neuronal-desde-cero) |
+| **Clasificador de hojas de banano** | Detecta si una hoja está sana o con Sigatoka, Cordana o Pestalotiopsis: transfer learning (MobileNetV2) exportado a ONNX para correr en el navegador. **98,5 %** en 134 fotos de prueba (entrenado con fotos de Bangladesh; aún sin validar con hojas de Urabá). | Python · PyTorch · ONNX · Next.js | [Demo](https://clasificador-hojas-banano.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/clasificador-hojas-banano) |
+| **Comanda** | Restaurantes pequeños: pedidos por mesa, para llevar y domicilio, fiado, gastos y cierre del día, y funciona sin conexión. La versión real está en uso en un negocio. | Next.js · Supabase | [Demo](https://comandacomi.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/comandacomi) |
+| **Polo Air Cool** | Taller de aire acondicionado automotriz, **en uso real**: órdenes con bitácora fotográfica, inventario, caja menor, garantías y portal del cliente. | Next.js · Supabase | [Sitio](https://polo-air-cool.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/Air-Polo-Cool) |
+| **Barberías** | Agenda del personal, reservas por enlace o QR y las cuentas del día: efectivo, Nequi, comisiones y cierre. | Next.js · Supabase | [Demo](https://barberias-demo-lyart.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/barberias) |
+| **Servitecas** | El cliente del taller ve el avance de su vehículo y autoriza los trabajos adicionales desde su celular. | Next.js · Supabase | [Demo](https://servitecas.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/servitecas) |
+| **Orígenes** | Memoria histórica de Urabá con realidad aumentada, escenas 360° y una avatar con IA. | React · Express · Three.js | [Web](https://www.aruma-origenes.com/login) · [Código](https://github.com/Johan-SnaiderMM/origenes) |
+| **Consultorio psicológico** | Pacientes, lista de espera y documentos clínicos en PDF. | Node.js · PostgreSQL | [Código](https://github.com/Johan-SnaiderMM/Consultorio_Psicologia) |
+| **Reporte ambiental** | Prototipo para reportar afectaciones ambientales con foto y ubicación, y gestionarlas en un mapa. | Vite · Leaflet · Supabase | [Código](https://github.com/Johan-SnaiderMM/Proyecto-Corpouraba) |
+| **FlyRank ML** | Internado de ML: ranking y visibilidad en Google Search. | Python | [Código](https://github.com/Johan-SnaiderMM/flyrank-ml-internship) |
+| **Pizza Party Pixel** | Una invitación interactiva en pixel art, hecha por diversión. | HTML · CSS · JavaScript | [Web](https://pizza-party-pixel.vercel.app) · [Código](https://github.com/Johan-SnaiderMM/pizza-party-pixel) |
 
-> Los números son los medidos: 98,1 % es con un dígito aislado de MNIST; la lectura de números completos se midió con secuencias **sintéticas** (86,5 % de números completos bien) y su detalle está en el README del proyecto.
-
-<details>
-<summary><b>Más proyectos</b> (apps para negocios pequeños y otros)</summary>
-
-<br>
-
-| Proyecto | Qué resuelve | Tecnologías |
-| --- | --- | --- |
-| [Barberías](https://github.com/Johan-SnaiderMM/barberias) · [web en vivo](https://barberias-demo-lyart.vercel.app) | Agenda del personal, reservas por enlace o QR y las cuentas del día: efectivo, Nequi, comisiones y cierre | Next.js · Supabase |
-| [Servitecas](https://github.com/Johan-SnaiderMM/servitecas) · [web en vivo](https://servitecas.vercel.app) | El cliente del taller ve el avance de su vehículo y autoriza los trabajos adicionales desde su celular | Next.js · Supabase |
-| [Orígenes](https://github.com/Johan-SnaiderMM/origenes) · [web en vivo](https://www.aruma-origenes.com/login) | Memoria histórica de Urabá con realidad aumentada, escenas 360° y una avatar con IA | React · Express · Three.js |
-| [Consultorio psicológico](https://github.com/Johan-SnaiderMM/Consultorio_Psicologia) | Pacientes, lista de espera y documentos clínicos en PDF | Node.js · PostgreSQL |
-| [Reporte ambiental](https://github.com/Johan-SnaiderMM/Proyecto-Corpouraba) | Prototipo para reportar afectaciones ambientales con foto y ubicación, y gestionarlas en un mapa | Vite · Leaflet · Supabase |
-| [FlyRank ML](https://github.com/Johan-SnaiderMM/flyrank-ml-internship) | Internado de ML: ranking y visibilidad en Google Search | Python |
-| [Pizza Party Pixel](https://github.com/Johan-SnaiderMM/pizza-party-pixel) · [web en vivo](https://pizza-party-pixel.vercel.app) | Una invitación interactiva en pixel art, hecha por diversión | HTML · CSS · JavaScript |
-
-</details>
+> Los números son los medidos: 98,1 % es con un dígito aislado de MNIST; la lectura de números completos se midió con secuencias **sintéticas** (86,5 % de números completos bien) y su detalle está en el README del proyecto. Las demos usan datos inventados.
 
 ## 🛠️ Cómo trabajo
 
